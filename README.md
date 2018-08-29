@@ -1,6 +1,8 @@
 
 Refer from: edgexfoundry, Jim White
 
+I try to install edge x in distributed node. Then, I made installation guide that is Edge x installation guide in Linux server.docx
+
 This repos contains scripts, batch files, JSON used in REST calls and other miscellaneous items used by developers buiding EdgeX.
 
 first it needs to read readme and install
