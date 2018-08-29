@@ -1,8 +1,9 @@
-Main Author: Jim White
 
-Copyright 2016-17, Dell, Inc.
+Refer from: edgexfoundry, Jim White
 
 This repos contains scripts, batch files, JSON used in REST calls and other miscellaneous items used by developers buiding EdgeX.
+
+first it needs to read readme and install
 
 ## Running on Linux
 
