@@ -119,19 +119,19 @@ fi
 
 echo "Starting MongoDB with no auth"
 # Start the database creation (without --auth)
-bash -c "sudo mongod --dbpath $dbpath" 
+bash -c "sudo mongod --dbpath $dbpath" & 
 echo
 echo "Sleeping for 30 seconds"
 sleep 30s
 
 # Initialize the database for edgex 
-bash -c "sudo mongo < init_mongo.js"
+bash -c "sudo mongo < init_mongo.js" &
 echo
 echo "Initialize the database and sleep for 10 seconds"
 sleep 10s
 
 # Shutdown the database
-bash -c "sudo mongod --dbpath $dbpath --shutdown "
+bash -c "sudo mongod --dbpath $dbpath --shutdown " &
 #echo
 echo "Shutting down the database and sleep for 10 seconds"
 sleep 10s
